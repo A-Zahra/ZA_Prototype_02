@@ -18,14 +18,15 @@ public class RotatorScript : MonoBehaviour
     void FixedUpdate()
     {
 
-       if (Input.GetKey(KeyCode.R))
+        this.GetComponent<Transform>().Rotate(0f, 0f, rotationSpeed);
+        /*if (Input.GetKey(KeyCode.R))
         {
           this.GetComponent<Transform>().Rotate(0f, rotationSpeed, 0f);
         }
          if (Input.GetKey(KeyCode.T))
         {
            this.GetComponent<Transform>().Rotate(0f, -rotationSpeed, 0f);
-        }
+        }*/
      
     }
     /*public void Rotate( InputAction.CallbackContext context)
