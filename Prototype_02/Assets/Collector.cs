@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Collector : MonoBehaviour
 {
-    public string collectableTag;
+    public string collectibleTag;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,7 +18,7 @@ public class Collector : MonoBehaviour
     }
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.tag == collectableTag)
+        if (collision.gameObject.tag == collectibleTag)
         {
             GameObject.Destroy(collision.gameObject);
         }

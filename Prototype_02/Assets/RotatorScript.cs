@@ -6,6 +6,7 @@ using UnityEngine.InputSystem;
 public class RotatorScript : MonoBehaviour
 {
     public float rotationSpeed = 0.1f;
+    //public GameObject loop;
     // Start is called before the first frame update
     void Start()
     {
@@ -13,12 +14,12 @@ public class RotatorScript : MonoBehaviour
     }
 
     // Update is called once per frame
-    // FixedUpdate(): No matter what would be the computer frame rate, the update function would act the same.
-    // OR, use this function with every line of code that you write: *Time.deltaTime()
     void FixedUpdate()
     {
 
-        this.GetComponent<Transform>().Rotate(0f, 0f, rotationSpeed);
+        this.GetComponent<Transform>().Rotate(0f, rotationSpeed, 0f);
+        //loop.transform.Rotate(0f, 0f, rotationSpeed);
+
         /*if (Input.GetKey(KeyCode.R))
         {
           this.GetComponent<Transform>().Rotate(0f, rotationSpeed, 0f);
@@ -27,15 +28,7 @@ public class RotatorScript : MonoBehaviour
         {
            this.GetComponent<Transform>().Rotate(0f, -rotationSpeed, 0f);
         }*/
-     
+
     }
-    /*public void Rotate( InputAction.CallbackContext context)
-    {
-        Debug.Log("Input detected");
-        this.GetComponent<Transform>().Rotate(0f, rotationSpeed, 0f);
-    }
-    public void Rotate2()
-    {
-        this.GetComponent<Transform>().Rotate(0f, rotationSpeed, 0f);
-    }*/
+
 }

@@ -5,7 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - CinemachineTarget
-  - collectableTag
+  - CollectibleTag
   layers:
   - Default
   - TransparentFX
