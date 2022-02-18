@@ -1,19 +1,14 @@
 **Design hypothesis**
 
-Through this prototype, I could get more familiar with the Unity environment. 
-I could apply some of the skills that I have learned so far. Creating various materials, 3D objects, and prefabs, 
-I tried to see what Unity can provide its users with through these tools. In this prototype, 
-I answered the following question:
-How to design a simple playable game with various levels of difficulty using my current knowledge?
+In my second prototype, I explored how simply creating a dynamic environment using only the object rotation tool. My previous prototype had an adventurous spirit. But, this prototype is role-based. The player should try to collect as many donuts and radishes as possible. Also, he/she should reach the central cylinder.
 
 **List of questions for playtesters**
 
-- How did you find the game subject?
-- How well could I employ my skills to construct the game environment?
-- What was the game difficulty level?
-- Do you think I could expand this prototype idea and go further?
-- What other barriers or stuff did you expect to come across?
+- How did you find the game difficulty level?
+- Could you collect any of the radishes?
+- Did you like the game?
+- Do you have any suggestions?
 - What did you find annoying?
-- Did you find anything creative in this prototype? If so, what was it?
-- What part of this prototype could get done differently?
-- How many times did you play the game to get to the village?
+- How was the arches' rotation speed? Did you find the rotation speed too fast?
+- How many times did you play the game?
+- Do you think this game could be more fun with background music?
