@@ -11,4 +11,4 @@ In my second prototype, I explored how simply creating a dynamic environment usi
 - What did you find annoying?
 - How was the arches' rotation speed? Did you find the rotation speed too fast?
 - How many times did you play the game?
--Do you think this game could be more fun with background music?
+- Do you think this game could be more fun with background music?
