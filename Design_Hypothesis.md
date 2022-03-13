@@ -14,3 +14,8 @@ In my second prototype, I explored how simply creating a dynamic environment usi
 - Do you think this game could be more fun with background music?
 
 **Reflection on playtests**
+
+  This prototype was an unfinished version of a game that I intended to make as my second prototype. In the game, the player was supposed to collect a bunch of collectible foods and fruits as they jumped and walked on the arches. The main goal of the game was to reach the central column. A simple light show was supposed to get displayed as the winner's prize. Due to time constraints and my limited skills in Unity, I couldn't get to that point. 
+  But, I found the playtest feedback very helpful even with this level of my game progression. I realized the game environment has been engaging. Almost all players believed that I should add obstacles to make the game harder. Some also suggested adding a timer and restart button.
+  Moreover, the players could find a set of bugs in my game that personally I didn't realize.
+Everyone agreed with adding background music, and some recommended adding sound effects to the game components. And finally, I need to clarify the game concept/goal if I want to use this game as my final project.
